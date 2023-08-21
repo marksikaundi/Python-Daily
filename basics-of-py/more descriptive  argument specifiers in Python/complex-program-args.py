@@ -10,10 +10,10 @@ def generate_receipt(products):
         quantity = int(input(f"Enter quantity for {product}: "))
         cost = price * quantity
         total_cost += cost
-        print("{:<20} ${:<10.2f} {:<10}".format(product, price, quantity))
+        print("{:<20} K{:<10.2f} {:<10}".format(product, price, quantity))
 
     print("="*40)
-    print("{:<20} ${:<10.2f}".format("Total Cost:", total_cost))
+    print("{:<20} K{:<10.2f}".format("Total Cost:", total_cost))
 
 
 def main():
