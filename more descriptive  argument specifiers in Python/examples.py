@@ -23,6 +23,24 @@ percentage = 0.7521
 print("Accuracy: %.1f%%" % (percentage * 100))
 # Explanation: Here, %.1f is used to format the floating-point number percentage with one digit after the decimal point. The % symbol is escaped by using %%, so it appears in the output as a percentage sign. The output will be "Accuracy: 75.2%."
 
+# Hexadecimal Representation (%x/%X)
+decimal_number = 255
+print("Hexadecimal: %x" % decimal_number)
+print("Hexadecimal: %X" % decimal_number)
+# Explanation: %x and %X are used to format an integer decimal_number in hexadecimal representation, with lowercase and uppercase letters, respectively. The output will be "Hexadecimal: ff" (lowercase) and "Hexadecimal: FF" (uppercase).
+#####
+# These examples showcase how to use argument specifiers to format different types of data in Python strings. They are especially useful when you need to create well-formatted output or display variables within text strings.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
