@@ -31,3 +31,9 @@ print("A list: %s" % mylist)
 
 # %x/%X - Integers in hex representation (lowercase/uppercase)
 
+# Exercise
+# You will need to write a format string which prints out the data using the following syntax: Hello John Doe. Your current balance is $53.44.
+data = ("Mark", "Sikaundi", 53.44)
+format_string = "Hello %s %s. Your current balance is K%s "
+
+print(format_string % data)
