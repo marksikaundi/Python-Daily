@@ -36,7 +36,7 @@ if __name__ == "__main__":
 # In the main function, we define a dictionary products containing sample product names and prices.
 # We call the generate_receipt function with the products dictionary to generate the receipt.
 # The program uses argument specifiers like {:<20} to specify the width of the columns and ensure proper alignment. For example, {:<20} ensures that the "Product" column is left-aligned and has a width of 20 characters.
-# Prices are formatted as ${:<10.2f} to display them as dollars with two decimal places.
+# Prices are formatted as ${:<10.2f} to display them as kwacha(K) with two decimal places.
 
 # Here's how the program works:
 
