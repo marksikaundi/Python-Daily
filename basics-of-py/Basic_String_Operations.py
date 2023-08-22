@@ -59,9 +59,9 @@ afewwords = astring.split(" ")
 
 # This splits the string into a bunch of strings grouped together in a list. Since this example splits at a space, the first item in the list will be "Hello", and the second will be "world!".
 
-# Exercise
+# Exercise Solution
 # Try to fix the code to print out the correct information by changing the string.
-s = "Hey there! what should this string be?"
+s = "Strings are awesome!"
 # Length should be 20
 print("Length of s = %d" % len(s))
 
@@ -95,36 +95,5 @@ if s.endswith("ome!"):
 # Split the string into three separate strings,
 # each containing only a word
 print("Split the words of the string: %s" % s.split(" "))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

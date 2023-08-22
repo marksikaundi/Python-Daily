@@ -30,6 +30,8 @@ format_string = "Hello"
 print(format_string % data)
 
 
+# EXERCISE About Strings Operations
+# Try to fix the code to print out the correct information by changing the string.
 s = "Hey there! what should this string be?"
 # Length should be 20
 print("Length of s = %d" % len(s))
