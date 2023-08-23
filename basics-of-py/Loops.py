@@ -19,7 +19,31 @@ for x in range(3, 6):
 for x in range(3, 8, 2):
     print(x)
 
+# "while" loops
+# While loops repeat as long as a certain boolean condition is met. For example:
+# Print out 0,1,2,3,4
 
+count = 0
+while count < 5:
+    print(count)
+    count += 1 #This is the same as count = count + 1
+
+
+# "break" and "continue" statements
+# break is used to exit a for loop or a while loop, whereas continue is used to skip the current block, and return to the "for" or "while" statement. A few examples:
+count = 0
+while True:
+    print(count)
+    count += 1
+    if count >= 5:
+        break
+    
+# Prints out only odd numbers - 1,3,5,7,9
+for x in range(10):
+    # Check if x is even
+    if x % 2 == 0:
+        continue
+    print(x)
 
 
 
