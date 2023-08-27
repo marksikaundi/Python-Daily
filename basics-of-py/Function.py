@@ -13,9 +13,13 @@
 def my_function():
     print("Hello from my function!")
 
+# Functions may also receive arguments(variables passed from the caller to the function). For example:
+def my_function_with_args(username, greeting):
+    print("Hello, %s , From my Function!, I wish you %s"% (username, greeting))
 
-
-
+# Functions may return a value to the caller, using the keyword - 'return'. for example:
+def sum_two_numbers(a, b):
+    return a + b
 
 
 
